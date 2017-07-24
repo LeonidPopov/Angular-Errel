@@ -96,6 +96,7 @@
   "devDependencies": {
     "@angular/cli": "1.0.4",
     "@angular/compiler-cli": "2.3.1",
+    "@ngtools/webpack": "^1.2.13",
     "@types/fullcalendar": "2.7.40",
     "@types/jasmine": "2.5.38",
     "@types/jquery": "2.0.41",
