@@ -2,7 +2,7 @@
   "name": "ng2-admin",
   "version": "1.0.0",
   "engines": {
-    "node": "6.11.1",
+    "node": "6.9.2",
     "npm": "3.10.9"
   },
   "description": "Angular and Bootstrap 4 Admin Template.",
@@ -91,7 +91,9 @@
     "normalize.css": "6.0.0",
     "roboto-fontface": "0.7.0",
     "rxjs": "5.4.0",
-    "zone.js": "0.8.11"
+    "zone.js": "0.8.11",
+    "@angular/compiler-cli": "2.2.3",
+  	"angular-cli": "1.0.0-beta.22-1"
   },
   "devDependencies": {
     "@angular/cli": "1.0.4",
