@@ -36,7 +36,9 @@
     "clean:dist": "npm run rimraf -- dist",
     "clean:coverage": "npm run rimraf -- coverage",
     "docs:deploy": "wintersmith build -C docs && gh-pages -d docs/build",
-    "docs:serve": "wintersmith preview -C docs"
+    "docs:serve": "wintersmith preview -C docs",
+    "postinstall": "ng build --aot -prod",
+    "start": "node Server.js"
   },
   "private": true,
   "dependencies": {
@@ -83,7 +85,8 @@
     "normalize.css": "6.0.0",
     "roboto-fontface": "0.7.0",
     "rxjs": "5.4.0",
-    "zone.js": "0.8.11"
+    "zone.js": "0.8.11",
+    "angular-cli": "1.0.0-beta.28.3"
   },
   "devDependencies": {
     "@angular/cli": "1.0.4",
